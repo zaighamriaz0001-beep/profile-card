@@ -1,0 +1,85 @@
+body{
+    background: linear-gradient(to right, rgb(252, 135, 135), rgb(126, 250, 126));
+    
+}
+#profile-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    height: 270px;
+    width: 550px;
+    border: 2px solid black;
+    background: linear-gradient(to right, rgb(36, 36, 252), skyblue);
+    transform: rotate(-5deg);
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+}
+.container:hover{
+    box-shadow: 0 0 20px rgb(2, 147, 252);
+    transition: all 0.5s ease;
+    border: 2px solid rgb(2, 147, 252);
+}
+h1{
+    padding-left: 20px;
+    padding-top: -2px;
+    background: linear-gradient(to right, rgb(41, 13, 50), rgb(250, 7, 84));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: poppins;
+    user-select: none;
+}
+img{
+    height: 210px;
+    width: 180px;
+    position: relative;
+    left: 360px;
+    top: -50px;
+    border: none;
+    border-radius: 50%;
+    display: block;
+    user-select: none;
+}
+img:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 20px black;
+}
+p{
+    width: 300px;
+    text-align: justify;
+    padding-left: 30px;
+    position: relative;
+    top: -220px;
+    font-family: Pacifico;
+    user-select: none;
+    background: linear-gradient(to right, rgb(132, 4, 96), rgb(10, 2, 5));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.navbar{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    gap: 20px;
+    display: flex;
+    
+
+}
+.navbar a{
+    background-color: transparent;
+    color: black;
+    font-size: 25px;
+}
+.navbar a:hover{
+    color: black;
+    transform: translateY(-7px);
+    transition: all 0.3s ease;
+    border: none;
+    outline: none;
+    text-shadow: 2px 10px 10px red;
+}
